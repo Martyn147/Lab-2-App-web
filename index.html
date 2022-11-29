@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Poke Api</title>
+</head>
+<body>
+
+            <main class="container text-center d-flex flex-column alto justify-content-center ">   
+                
+
+                
+            
+                <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="/img/Pokemon-logo-497D61B223-seeklogo.com.png" alt="" width="150" height="60" class="d-inline-block align-text-top">
+                        SIMULADOR DE BATALLA
+                      </a>
+                    </div>
+                  </nav>
+            
+                  <div class="row row-cols-1 row-cols-md-3 g-4"  id="listarpokemon" >
+
+       
+             
+                    <div class="col">
+                        <div class="border border-black border-3 rounded-3" id="pok-1">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                          <h1 class="text-muted">Last updated 3 mins ago</h1>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
+                        <button type="submit" class="btn btn-success mb-3" onclick="btnSeleccionar()">Seleccionar</button>
+                        <p class="lead">VS</p>
+                    </div>
+
+                    <div class="col">
+                      <div class="border border-black border-3 rounded-3" id="pok-2">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        </div>
+                        <div class="card-footer">
+                          <h1 class="text-muted">Last updated 3 mins ago</h1>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="badge bg-primary text-wrap" style="border-top: 2250 px; border-bottom: 150px;">
+                    listado de participantes
+                  </div>
+            
+                  
+            
+                  <table class="table table-striped table-hover"  style="border-bottom: 170px;">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>NAME</th>
+                            <th>EMAIL</th>
+                        </tr>
+                    </thead>
+                    <tbody id="data"><tr><td></td><td></td><td></td></tr><tr></tbody>
+                  </table>
+            
+            
+            
+            </main>
+
+
+
+      <audio autoplay="1" src="./Trainer Red Epic Remix (1).mp3" loop)="1" ></audio>
+
+      <script src="./datosPokemon.js"></script>
+      <script src="./datosUsers.js"></script>
+</body>
+</html>
